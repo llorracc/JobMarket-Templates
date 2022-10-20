@@ -12,6 +12,8 @@ for file in *.pdf; do
     filename="${file%.*}"
     moniker="$(<.mymoniker)"
     outname="$filename""$moniker"
-    echo cp $filename.pdf moniker-dir/$filename/$outname.pdf
+    cmd="cp $filename.pdf moniker-dir/$filename/$outname.pdf"
+    echo "$cmd"
+    eval "$cmd"
 done
 
