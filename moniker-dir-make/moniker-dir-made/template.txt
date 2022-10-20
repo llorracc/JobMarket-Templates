@@ -1,0 +1,43 @@
+FirstName LastName
+
+
+Office: Wyman 544E
+Main Phone: (410) xxx-xxxx 
+Office Phone: (410) 516-7601 
+Fax: (410) 516-7600
+E-mail: e-mail@jhu.edu 
+
+
+ 
+
+Thesis:
+
+"Thesis title" 
+
+Fields:
+
+Field names
+
+Main Advisor:
+
+Research:
+
+"Job market paper title " (job market paper)
+
+"Other paper title" 
+"Other paper title" 
+"Other paper title" 
+
+Other Activity:
+
+
+Teaching:
+
+Course title Semester Year TA/Instructor
+
+References
+
+Main-advisor:Professor FirstName LastName - e-mail@jhu.edu
+Other-advisor:Professor FirstNameAnother LastNAme - email
+Other-advisor:Professor FirstNameYetAnother LastNAme - email
+

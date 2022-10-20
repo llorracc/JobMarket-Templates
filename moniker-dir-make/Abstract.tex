@@ -1,0 +1,41 @@
+\RequirePackage{mymoniker}    % Replace CarrollCD in mymoniker.sty with your LastnameFirstNameMiddleName
+\RequirePackage{dissertation} % required extra stuff
+\documentclass{scrartcl}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{Three Essays on 2+2}}
+\\[5pt]
+{\large \textbf{Wile E. Coyote}}
+
+\end{center}
+
+% Put the overall dissertation abstract here
+\begin{verbatimwrite}{\abstractpath/AbstractCombined\mymoniker}
+  My dissertation comprises three papers, each better than the others.  First, I prove that 2+2 = 5.  Then I prove it is greater; finally I show that it is negative. This combination of results enables proof of any proposition whatsoever.
+\end{verbatimwrite}
+\input{\abstractpath/AbstractCombined\mymoniker}
+
+% Put the job market paper abstract here
+\section{In which the first proposition is proven}
+\begin{verbatimwrite}{\abstractpath/Abstract\mymoniker}
+  Two plus two equals five because I say so.
+\end{verbatimwrite}
+\input{\abstractpath/Abstract\mymoniker}
+
+% Put the NextPaper abstract here
+\section{Explaining the second point}
+\begin{verbatimwrite}{\abstractpath/AbstractNextPaper\mymoniker}
+  Two plus two exceeds 5
+\end{verbatimwrite}
+\input{\abstractpath/AbstractNextPaper\mymoniker}
+
+% Put the LastPaper abstract here
+\section{Last but not least paper}
+\begin{verbatimwrite}{\abstractpath/AbstractLastPaper\mymoniker}
+  Two plus two, in fact, is negative
+\end{verbatimwrite}
+\input{\abstractpath/AbstractLastPaper\mymoniker}
+
+\end{document}

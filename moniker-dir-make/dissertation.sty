@@ -1,0 +1,11 @@
+% This sets up preliminaries for compiling the latex docs
+\RequirePackage{moreverb,import}
+\providecommand{\monikerpath}{moniker-dir-made}
+\providecommand{\abstractpath}{./\monikerpath/Abstract}
+
+% Suppress info that causes the output pdf to vary from run to run even if input is identical
+% Allows useful diff of PDF docs for git etc
+\pdfinfoomitdate=1      % No date
+\pdftrailerid{}         % No trailer ID
+\pdfsuppressptexinfo=-1 % Suppress all texinfo
+
