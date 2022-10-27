@@ -7,5 +7,4 @@ Steps:
    * If you are on Windows, you can do the same steps by hand
    * Or write a bat file
       * If you want to endear yourself to the JMPO, you will make a PR for your bat file
-   
-   
+      * This may also endear you to future Microserfs who are JHU PhD students
