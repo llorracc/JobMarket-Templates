@@ -2,9 +2,9 @@
 
 Steps:
 
-1. Replace `CarrollCD` in `mymoniker.sty` with your moniker
+1. Read `mymoniker_README.sty`
 2. If you are on linux or MacOS, run the script `./moniker-dir-make.sh`
    * If you are on Windows, you can do the same steps by hand
    * Or write a bat file
-      * If you want to endear yourself to the JMPO, you will make a PR for your bat file
-      * This may also endear you to future Microserfs who are JHU PhD students
+   
+   
