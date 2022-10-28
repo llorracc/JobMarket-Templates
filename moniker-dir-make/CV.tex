@@ -126,6 +126,12 @@
 \usepackage{ifthen}
 \newboolean{long}
 \setboolean{long}{false}
+
+% set it to be false if you don't want to show JMP abstract
+\newboolean{JMPAbstract}
+\setboolean{JMPAbstract}{true}
+
+
 \newboolean{industry}
 \setboolean{industry}{false}
 
@@ -215,7 +221,7 @@
 \def\vs{\vspace{-0.1in}}
 \begin{document}
 % \makeheading{Curriculum Vitae\\ [0.3cm] TIEP HUU VU\quad~~~~~~\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad{\small Last update: December 17, 2015}}
-\makeheading{Tao Wang \hfill {\small Last update: \today}}
+\makeheading{NAME \hfill {\small Last update: \today}}
 
 
 \section{Contact Information}
@@ -223,10 +229,10 @@
 \newlength{\rcollength}\setlength{\rcollength}{3 in}
 \vs
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-Department of Economics  & \texttt{Homepage:}\href{http://taowangecon.github.io}{http://taowangecon.github.io}\\
-Johns Hopkins University & \texttt{GitHub:} \href{https://github.com/iworld1991}{https://github.com/iworld1991}\\
-Baltimore, MD 21211 &  {\large\Letter} \texttt{E-mail:}\href{mailto:twang80@jhu.edu}{twang80@jhu.edu} \\
-Work: (410) 516-7601  & Home: (443) 467-4300
+Department of Economics  & \texttt{Homepage:}\href{http://taowangecon.github.io}{http://name.com}\\
+Johns Hopkins University & \texttt{GitHub:} \href{https://github.com/name}{https://github.com/name}\\
+Baltimore, MD 21211 &  {\large\Letter} \texttt{E-mail:}\href{mailto:email@jhu.edu}{email@jhu.edu} \\
+Work: (410) 516-7601  & Home: (xxx)-xxx-xxxx
 \end{tabular} 
 %%
 
