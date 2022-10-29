@@ -17,5 +17,3 @@ for file in *.pdf; do
     eval "$cmd"
 done
 
-rm -Rf auto
-rm *~
